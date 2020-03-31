@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Mageplaza::top_level" module="Mageplaza_HelloWorld" resource="Magento_Backend::content" sortOrder="9999" title="Mageplaza"/>
+		<add action="mageplaza_helloworld/store/index" id="Mageplaza_HelloWorld::mageplaza_helloworld_store" module="Mageplaza_HelloWorld" parent="Mageplaza::top_level" resource="Magento_Backend::content" sortOrder="9999" title="Store"/>
+	</menu>
+</config>
